@@ -1,0 +1,77 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "bindings": {
+      "shift-f8": "debugger::Restart"
+    }
+  },
+  {
+    "bindings": {
+      "shift-f9": "debugger::ClearAllBreakpoints"
+    }
+  },
+  {
+    "bindings": {
+      "alt-f5": "debugger::Detach"
+    }
+  },
+  {
+    "context": "(Workspace || Editor)",
+    "bindings": {
+      "alt-shift-j": "terminal_panel::Toggle"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-t": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-t": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-t": null
+    }
+  },
+  {
+    "bindings": {
+      "alt-j": "terminal_panel::ToggleFocus"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "f f": "editor::Format"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "alt-q": "pane::CloseActiveItem"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "ctrl t n": "workspace::NewTerminal"
+    }
+  },
+  {
+    "context": "Terminal",
+    "unbind": {
+      "ctrl-shift-t": "workspace::NewTerminal"
+    }
+  }
+]
